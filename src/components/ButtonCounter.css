@@ -1,0 +1,20 @@
+.ButtonCounter {
+  margin-right: 30px;
+  vertical-align: top;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  background-color: #0af;
+  transition: .3s;
+}
+.ButtonCounter:hover {
+  cursor: pointer;
+  background-color: #07c;
+}
+.ButtonCounter:focus {
+  padding: 5px 20px;
+  box-shadow: 0 0 3px #07c;
+}
